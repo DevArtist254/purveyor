@@ -1,3 +1,19 @@
+.youtube {
+  colors: #D16E8D;
+}
+
+.articles {
+  colors: #FFAC83;
+}
+
+.community {
+  colors: #3F78C9;
+}
+
+.courses {
+  colors: #49C4A3;
+}
+
 /*
 Media Query Manager
 
@@ -16,7 +32,11 @@ Breakpoints : Screens         : nickname
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
+
+/*# sourceMappingURL=style.comp.css.map */

@@ -1,3 +1,19 @@
+.youtube {
+  colors: #D16E8D;
+}
+
+.articles {
+  colors: #FFAC83;
+}
+
+.community {
+  colors: #3F78C9;
+}
+
+.courses {
+  colors: #49C4A3;
+}
+
 /*
 Media Query Manager
 
@@ -16,9 +32,11 @@ Breakpoints : Screens         : nickname
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNvbmNhdC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7OztDQVlDO0FBQ0Q7OztFQUdFLFNBQVM7RUFDVCxVQUFVO0VBQ1Ysc0JBQXNCLEVBQUU7O0FBRTFCO0VBQ0UsZ0JBQWdCLEVBQUUiLCJmaWxlIjoic3R5bGUucHJlZml4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG5NZWRpYSBRdWVyeSBNYW5hZ2VyXG5cbkJyZWFrcG9pbnRzIDogU2NyZWVucyAgICAgICAgIDogbmlja25hbWVcblxuMC02MDAgcHggICAgOiBwaG9uZSAgICAgICAgICAgOiBwaG9uZVxuNjAwLTkwMCBweCAgOiB0YWJsZXQtcG9ydHJhaXQgOiB0YWItcG9ydFxuOTAwLTEyMDAgcHggOiB0YWJsZXQtbGFuZHNjYXBlOiB0YWItbGFuZFxuMTIwMC0xODAwIHB4OiBub3JtYWwgYmVjb3ogaXRzIGRlc2t0b3AgZmlyc3QgbWV0aG9kXG4xODAwcHggKyAgICA6IEJpZyBNb25pdG9yICAgICA6IGJpZy1zY3JlZW5cblxuMWVtID0gMTZweFxuKi9cbiosXG4qOjphZnRlcixcbio6OmJlZm9yZSB7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDsgfVxuXG5odG1sIHtcbiAgZm9udC1zaXplOiA2Mi41JTsgfVxuIl19 */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvYWJzdHJhY3QvX2Z1bmN0aW9uLnNjc3MiLCJzdHlsZS5jb25jYXQuY3NzIiwiLi4vc2Fzcy9hYnN0cmFjdC9fbWl4aW4uc2NzcyIsIi4uL3Nhc3MvYmFzZS9fYmFzZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVNJO0VBQ0ksZUFWRTtBQ0VWOztBRE9JO0VBQ0ksZUFWRTtBQ01WOztBREdJO0VBQ0ksZUFWRTtBQ1VWOztBRERJO0VBQ0ksZUFWRTtBQ2NWOztBQ1RBOzs7Ozs7Ozs7Ozs7Q0FBQTtBQ0xBOzs7RUFHSSxTQUFBO0VBQ0EsVUFBQTtFQUNBLHNCQUFBO0FGOEJKOztBRTNCQTtFQUNJLGdCQUFBO0FGOEJKIiwiZmlsZSI6InN0eWxlLnByZWZpeC5jc3MifQ== */
