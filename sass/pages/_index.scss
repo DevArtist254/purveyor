@@ -87,9 +87,7 @@
 
  &__header {
   width: 100%;
-  height: 55px;
-  background-color: black;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
  }
 }
 
@@ -108,20 +106,14 @@
  border: 1px solid #000000;
  border-radius: 5px;
  margin-bottom: 5rem;
-}
-
-.cta {
- width: 100%;
- height: 20vh;
+ padding-bottom: 50px;
  display: flex;
  flex-direction: column;
- justify-content: center;
  align-items: center;
+ justify-content: flex-end;
+ transition: all 0.5s ease-in-out 0.1s;
 
- &__btn {
-  width: 704px;
-  height: 130px;
-  background: #8266ff;
-  border-radius: 20px;
+ &:hover {
+  height: 415px;
  }
 }

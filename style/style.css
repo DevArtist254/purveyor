@@ -43,6 +43,40 @@ body {
   position: relative;
 }
 
+.btnSec {
+  width: 256px;
+  height: 72px;
+}
+.btnSec__link {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.cta {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cta__btn {
+  width: 704px;
+  height: 130px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+}
+.cta__link {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 33px;
+}
+
 .nav {
   background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
@@ -122,9 +156,7 @@ body {
 }
 .nav-solutions__header {
   width: 100%;
-  height: 55px;
-  background-color: black;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .cards {
@@ -142,21 +174,15 @@ body {
   border: 1px solid #000000;
   border-radius: 5px;
   margin-bottom: 5rem;
-}
-
-.cta {
-  width: 100%;
-  height: 20vh;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-end;
+  transition: all 0.5s ease-in-out 0.1s;
 }
-.cta__btn {
-  width: 704px;
-  height: 130px;
-  background: #8266ff;
-  border-radius: 20px;
+.card:hover {
+  height: 415px;
 }
 
 .logo-header {
@@ -184,6 +210,26 @@ body {
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.heading-about {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.about-header {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
   /* identical to box height */
   color: #000000;
 }
