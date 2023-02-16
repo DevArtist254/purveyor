@@ -127,6 +127,10 @@ body {
 .intro {
   width: 100%;
   height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
 }
 .intro__content {
   width: 80%;
@@ -210,8 +214,6 @@ body {
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
-  /* identical to box height */
-  color: #000000;
 }
 
 .heading-about {
@@ -220,8 +222,6 @@ body {
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
-  /* identical to box height */
-  color: #000000;
 }
 
 .about-header {
@@ -230,8 +230,14 @@ body {
   font-weight: 400;
   font-size: 24px;
   line-height: 33px;
-  /* identical to box height */
-  color: #000000;
+}
+
+.sub-header-about {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
 }
 
 .p-normal {
@@ -240,7 +246,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
