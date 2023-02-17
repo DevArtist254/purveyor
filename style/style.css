@@ -43,6 +43,10 @@ body {
   position: relative;
 }
 
+.pdlist {
+  padding-left: 25px;
+}
+
 .btnSec {
   width: 256px;
   height: 72px;
@@ -173,7 +177,7 @@ body {
 }
 
 .card {
-  width: 345px;
+  width: 300px;
   height: 127px;
   border: 1px solid #000000;
   border-radius: 5px;
