@@ -17,25 +17,42 @@
  }
 
  &__logo {
-  width: 344px;
+  width: 230px;
+
   height: 102px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
 
+  @include respond(tab-port) {
+   width: 344px;
+  }
+
   &--logo {
-   width: 102px;
+   width: 51px;
    height: 102px;
+
+   @include respond(tab-land) {
+    width: 102px;
+   }
+
+   @include respond(tab-port) {
+    width: 70px;
+   }
   }
  }
  &__list {
   width: 523px;
   height: 44px;
   list-style: none;
-  display: flex;
+  display: none;
+
   justify-content: space-between;
   align-items: center;
+
+  @include respond(tab-port) {
+   display: flex;
+  }
  }
 
  &__item {
@@ -58,28 +75,53 @@
  height: 100vh;
  background-size: cover;
  background-repeat: no-repeat;
- background-attachment: fixed;
+ background-attachment: initial;
+ background-position: center;
+ padding-top: 15rem;
 
  //Gobal css
  color: #fff;
+
+ @include respond(tab-port) {
+  background-attachment: fixed;
+  padding-bottom: initial;
+  padding-top: initial;
+ }
 
  &__content {
   width: 80%;
   height: 100%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
   align-items: center;
+
+  flex-direction: column;
+  justify-content: initial;
+
+  @include respond(tab-port) {
+   flex-direction: row;
+   justify-content: space-between;
+  }
  }
 
  &__header {
-  text-align: center;
-  rotate: 90deg;
+  text-align: start;
+  rotate: 0deg;
+
+  @include respond(tab-port) {
+   rotate: 90deg;
+   text-align: center;
+  }
  }
  &__text-box {
-  width: 528px;
+  width: 330px;
+
   height: 288px;
+
+  @include respond(tab-port) {
+   width: 528px;
+  }
  }
 }
 

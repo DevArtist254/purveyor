@@ -20,10 +20,14 @@
  align-items: center;
 
  &__btn {
-  width: 704px;
+  width: 360px;
   height: 130px;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
+
+  @include respond(tab-port) {
+   width: 704px;
+  }
  }
 
  &__link {
