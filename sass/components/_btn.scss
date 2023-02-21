@@ -13,11 +13,15 @@
 
 .cta {
  width: 100%;
- height: 35vh;
+ height: 50vh;
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
+
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
 
  &__btn {
   width: 360px;
