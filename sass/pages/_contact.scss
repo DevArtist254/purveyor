@@ -1,0 +1,85 @@
+.headingCu {
+ font-family: "Nunito";
+ font-style: normal;
+ font-weight: 600;
+ font-size: 40px;
+
+ /* identical to box height */
+
+ color: #000000;
+}
+
+.qouteCu {
+ font-family: "Lobster";
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+
+ color: #000000;
+}
+
+.subHeaderCu {
+ font-family: "Nunito";
+ font-style: normal;
+ font-weight: 600;
+ font-size: 32px;
+
+ /* identical to box height */
+
+ color: #000000;
+ border-bottom: 1px solid #000000;
+ width: 300px;
+}
+
+.linkCu {
+ font-family: "Nunito";
+ font-style: normal;
+ font-weight: 600;
+ font-size: 18px;
+ line-height: 25px;
+}
+
+.cu {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+ @include respond(tab-port) {
+  flex-direction: row;
+ }
+}
+
+.image {
+ width: 0;
+ height: 0;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+ @include respond(tab-port) {
+  width: 45%;
+  height: 100vh;
+ }
+}
+
+.text {
+ width: 80%;
+ margin: 0 auto;
+
+ @include respond(tab-port) {
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+}
+
+.mrgCu5 {
+ margin-bottom: 5rem;
+}
+
+.mrgCu25 {
+ margin-bottom: 2.5rem;
+}
