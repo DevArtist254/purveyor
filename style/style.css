@@ -51,6 +51,10 @@ body {
   padding-left: 25px;
 }
 
+.mainmargin {
+  margin-top: 12rem;
+}
+
 .btnSec {
   width: 256px;
   height: 72px;
