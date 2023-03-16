@@ -9,20 +9,24 @@
  &__content {
   width: 80%;
   margin: 0 auto;
-  height: 16vh;
+  height: 12vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  @include respond(tab-port) {
+   height: 16vh;
+  }
  }
 
  &__logo {
-  width: 230px;
+  width: 275px;
 
   height: 102px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
 
   @include respond(tab-port) {
    width: 344px;

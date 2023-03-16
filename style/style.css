@@ -108,18 +108,24 @@ body {
 .nav__content {
   width: 80%;
   margin: 0 auto;
-  height: 16vh;
+  height: 12vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+@media (min-width: 56.25em) {
+  .nav__content {
+    height: 16vh;
+  }
+}
 .nav__logo {
-  width: 230px;
+  width: 275px;
   height: 102px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
 }
 @media (min-width: 56.25em) {
   .nav__logo {
@@ -363,7 +369,7 @@ body {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 44px;
   /* identical to box height */
   color: #fff;
@@ -378,14 +384,9 @@ body {
   font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 16px;
   color: #fff;
-}
-@media (min-width: 56.25em) {
-  .logo-qoute {
-    font-size: 12px;
-  }
 }
 
 .header-land {
